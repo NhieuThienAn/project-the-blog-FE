@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+@import url(../../Pages//Home/Home.scss);
+
+
+
+.none {
+    display: none;
+}
+
+.smaller {
+    font-size: 80%;
+    margin: 1em 1em;
+    margin-left: 0;
+}
+//dien thoai
+@media(max-width: 480px) {
+    .header {
+        padding-top: 1em;
+        &__username {
+            display: inline;
+            padding-left: 2em;
+            padding-top: 1em;
+        }
+
+        &__browser {
+            display: none;
+        }
+
+        &__mode {
+            display: none;
+        }
+
+        &__menu {
+            display: inline;
+            width: 3em;
+            float: right;
+        }
+    }
+}
+//may tinh bang
+@media (min-width: 481px) and (max-width:560px) {
+    .header {
+        padding-top: 1em;
+        &__username {
+            display: inline-block;
+            margin: 0 2em;
+            margin-right: 17%;
+
+        }
+
+        &__browser {
+            margin: 0em 1%;
+            text-decoration: none;
+            font-size: 80%;
+        }
+
+        &__mode {
+            height: fit-content;
+            border: 0;
+            background-color: var(--white);
+            width: 12%;
+            & svg {
+                margin: 0 0.3em;
+                width: 13px;
+                cursor: pointer;
+            }
+        }
+
+        &__menu {
+            display: none;
+        }
+    }
+}
+@media (min-width: 620px) and (max-width:650px) {
+    .header {
+        padding-top: 1em;
+        &__username {
+            display: inline-block;
+            margin: 0 3em;
+            margin-right: 22%;
+
+        }
+
+        &__browser {
+            margin: 0em 2%;
+            text-decoration: none;
+            font-size: 85%;
+        }
+
+        &__mode {
+            height: fit-content;
+            border: 0;
+            background-color: var(--white);
+            width: 10%;
+            & svg {
+                margin: 0 0.3em;
+                width: 13px;
+                cursor: pointer;
+            }
+        }
+
+        &__menu {
+            display: none;
+        }
+    }
+}
+@media (min-width: 650px) and (max-width:659px) {
+    .header {
+        padding-top: 1em;
+        &__username {
+            display: inline-block;
+            margin: 0 3em;
+            margin-right: 25%;
+
+        }
+
+        &__browser {
+            margin: 0em 2%;
+            text-decoration: none;
+            font-size: 85%;
+        }
+
+        &__mode {
+            height: fit-content;
+            border: 0;
+            background-color: var(--white);
+            width: 10%;
+            & svg {
+                margin: 0 0.3em;
+                width: 13px;
+                cursor: pointer;
+            }
+        }
+
+        &__menu {
+            display: none;
+        }
+    }
+}
+@media (min-width: 659px) and (max-width:768px) {
+    .header {
+        padding-top: 1em;
+        &__username {
+            display: inline-block;
+            margin: 0 2em;
+            margin-right: 30%;
+
+        }
+
+        &__browser {
+            margin: 0em 2%;
+            text-decoration: none;
+            font-size: 85%;
+        }
+
+        &__mode {
+            height: fit-content;
+            border: 0;
+            background-color: var(--white);
+            width: 8%;
+            & svg {
+                margin: 0 0.3em;
+                width: 13px;
+                cursor: pointer;
+            }
+        }
+
+        &__menu {
+            display: none;
+        }
+    }
+}
+//laptop
+@media (min-width: 768px) and (max-width:900px) {
+    .header {
+        padding-top: 1em;
+        &__username {
+            display: inline-block;
+            margin: 0 4em;
+            margin-right: 24%;
+        }
+
+        &__browser {
+            margin: 0em 2%;
+            text-decoration: none;
+        }
+
+        &__mode {
+            display: inline-block;
+            padding: 0.2em 0.4em;
+            border-radius: 29px;
+            padding-top: 0.4em;
+            width: 10%;
+            & svg {
+                margin: 0 0.3em;
+                width: 20px;
+                cursor: pointer;
+            }
+        }
+
+        &__menu {
+            display: none;
+        }
+    }
+}
+@media (min-width: 900px) and (max-width:1000px) {
+    .header {
+        padding-top: 1em;
+        &__username {
+            display: inline-block;
+            margin: 0 4em;
+            margin-right: 28%;
+        }
+
+        &__browser {
+            margin: 0em 2%;
+            text-decoration: none;
+        }
+
+        &__mode {
+            display: inline-block;
+            padding: 0.2em 0.4em;
+            border-radius: 29px;
+            padding-top: 0.4em;
+            width: 8%;
+            & svg {
+                margin: 0 0.3em;
+                width: 20px;
+                cursor: pointer;
+            }
+        }
+
+        &__menu {
+            display: none;
+        }
+    }
+}
+@media (min-width: 1000px) and (max-width:1100px) {
+    .header {
+        padding-top: 1em;
+        &__username {
+            display: inline-block;
+            margin: 0 4em;
+            margin-right: 30%;
+        }
+
+        &__browser {
+            margin: 0em 2%;
+            text-decoration: none;
+        }
+
+        &__mode {
+            display: inline-block;
+            padding: 0.2em 0.4em;
+            border-radius: 29px;
+            padding-top: 0.4em;
+            width: 8%;
+            & svg {
+                margin: 0 0.3em;
+                width: 20px;
+                cursor: pointer;
+            }
+        }
+
+        &__menu {
+            display: none;
+        }
+    }
+}
+@media (min-width: 1100px) and (max-width:1300px) {
+    .header {
+        padding-top: 1em;
+        &__username {
+            display: inline-block;
+            margin: 0 4em;
+            margin-right: 40%;
+        }
+
+        &__browser {
+            margin: 0em 2%;
+            text-decoration: none;
+        }
+
+        &__mode {
+            display: inline-block;
+            padding: 0.2em 0.4em;
+            border-radius: 29px;
+            padding-top: 0.4em;
+            width: 7%;
+            & svg {
+                margin: 0 0.4em;
+                width: 20px;
+                cursor: pointer;
+            }
+        }
+
+        &__menu {
+            display: none;
+        }
+    }
+}
+
+.menu__display {
+    display: inline;
+}
+
+.svg__display {
+    display: inline-block;
+}

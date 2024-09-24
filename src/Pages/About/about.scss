@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url(../Home/Home.scss);
+.about-light {
+    margin: 1em 4em;
+    margin-bottom: 3em;
+    & .about__picture {
+        width: 100%;
+        margin: 0 ;
+    }
+    & h3{
+        margin: 1em 0;
+    }
+    & p:nth-child(even){
+        font-size: 110%;
+    }
+    & li{
+        margin: 0.4em 0;
+        font-size: 110%;
+    }
+}
+.about-dark {
+    padding: 1em 4em;
+    padding-bottom: 3em;
+    & .about__picture {
+        width: 100%;
+    }
+    & h3{
+        margin: 1em 0;
+        
+    }
+    & p:nth-child(even){
+        opacity: 0.8;
+        font-size: 110%;
+    }
+    & li{
+        opacity: 0.8;
+        margin: 0.4em 0;
+        font-size: 110%;
+    }
+}

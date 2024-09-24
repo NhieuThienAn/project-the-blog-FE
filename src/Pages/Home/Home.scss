@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+:root {
+    --white: #ffffff;
+    --black: #1A1A1A;
+    --purple: #6941C6;
+    --purplebg: #F9F5FF;
+    --blue: #3538CD;
+    --bluebg: #EEF4FF;
+    --pink: #C11574;
+    --pinkbg: #FDF2FA;
+    --gray: #363F72;
+    --graybg: #F8F9FC;
+    --green: #026AA2;
+    --greenbg: #F0F9FF;
+    --orgean: #C4320A;
+    --orgeanbg: #FFF6ED;
+    --green2: #027A48;
+    --green2bg: #ECFDF3;
+}
+body{
+    margin: 0;
+}
+* {
+    font-family: 'Inter', sans-serif;
+    transition: 0.1s;
+    box-sizing: border-box;
+}
+
+.home-light {
+    margin: 1em 4em;
+}
+.home-dark{
+    
+    padding: 1em 4em;
+}
+.mobile {
+    margin: 0;
+}
+//điện thoại
+@media (max-width: 480px) {
+    .home-light {
+        margin: 0em 2em;
+    }
+    .home-dark{
+        
+        padding: 1em 4em;
+    }
+}
+//máy tính bảng
+@media (min-width: 481px) and (max-width:768px) {
+    .home-light {
+        margin: 0em 2em;
+    }
+    .home-dark{
+        padding: 1em 4em;
+    }
+}
+//máy tính
+@media (min-width: 769px) and (max-width:800px) {
+    .home-light {
+        margin: 0em 1em;
+    }
+    .home-dark{
+        padding: 1em 1em;
+    }
+}
+@media (min-width: 800px) and (max-width:900px) {
+    .home-light {
+        margin: 0em 3em;
+    }
+    .home-dark{
+        padding: 1em 3em;
+    }
+}
+@media (min-width: 1000px) and (max-width:1100px) {
+    .home-light {
+        margin: 0em 1em;
+    }
+    .home-dark{
+        padding: 1em 4em;
+    }
+}
+@media (min-width: 1100px) and (max-width:1300px) {
+    .home-light {
+        margin: 0em 3em;
+    }
+    .home-dark{
+        padding: 1em 4em;
+    }
+}
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+.light-mode {
+    background-color: white;
+    color: black;
+}
+
+.btn_dark-mode{
+    background-color: var(--white);
+    color: var(--black);
+    padding: 0.2em 0.4em;
+    border-radius: 29px;
+    padding-top: 0.4em;
+}
+.btn_light-mode{
+    background-color: var(--black);
+    color: var(--white);
+    padding: 0.2em 0.4em;
+    border-radius: 29px;
+    padding-top: 0.4em;
+}

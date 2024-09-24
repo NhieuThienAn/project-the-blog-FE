@@ -1,0 +1,44 @@
+@import url(../../Pages//Home/Home.scss);
+
+.Email{
+    text-align: center;
+    margin: 3em 0   ;
+    &__name{
+        color: var(--purple);
+        font-size: 80%;
+    }
+    &__Title{
+        font-size: 160%;
+        margin: 0.2% 0;
+    }
+    &__Pararap{
+        word-wrap: break-word;
+        overflow: visible;
+        width: 50%;
+        margin: 1.2% auto;
+    }
+    &__Input{
+        border-radius: 8px;
+        padding: 1.6% 10% 1.6% 1.5%;
+        border: var(--black) 1px solid;
+        margin: 1em 1.5%   ;
+        margin-bottom: 0.2%;
+    }
+    &__Button{
+        padding: 1em 1.2em;
+        background-color: var(--purple);
+        color:var(--white);
+        border: 0;
+        border-radius: 8px;
+        cursor: pointer;
+    }
+    &__contract{
+        font-size: 60%;
+        margin: 0 12% 0 0;
+        
+        & a{
+            color: var(--black);
+        }
+    }
+
+}

@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url(../Home/Home.scss);
+:root{
+    --white: #ffffff;
+    --black: #1A1A1A;
+    --purple: #6941C6;
+    --purplebg: #F9F5FF;
+    --blue: #3538CD;
+    --bluebg: #EEF4FF;
+    --pink: #C11574;
+    --pinkbg: #FDF2FA;
+    --gray: #363F72;
+    --graybg: #F8F9FC;
+    --green: #026AA2;
+    --greenbg: #F0F9FF;
+    --orgean: #C4320A;
+    --orgeanbg: #FFF6ED;
+    --green2:#027A48;
+    --green2bg:#ECFDF3;
+}
+.Post{
+    padding: 2em 0;
+    display: grid;
+    grid-column: 1fr 1fr;
+    gap: 2em;
+    padding: 0 6em;
+    &--left{
+        grid-column: 1/2;
+    }
+    &--right{
+        grid-column: 2/3;
+        & h6:first-child{
+            color: var(--purple);
+            font-size: 100%;
+            margin: 1em 0;
+        }
+    }
+}
+p{
+    font-size: 90%;
+    line-height: 1.3em;
+    opacity: 0.8;
+}
+li{
+    opacity: 0.8;
+}
+.Post--h4{
+    margin: 1em 10em;
+    font-size: 90%;
+    font-weight: 500;
+    text-align: center;
+}
+h5{
+    font-size: 120%;
+    margin: 1em 0;
+}
